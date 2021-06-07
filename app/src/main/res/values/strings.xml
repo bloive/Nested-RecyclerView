@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Nested RecyclerView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <dimen name="card_margin">30dp</dimen>
+    <dimen name="child_recycler_margin">10dp</dimen>
+</resources>
