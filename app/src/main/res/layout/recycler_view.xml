@@ -9,8 +9,8 @@
     app:cardCornerRadius="16dp"
     app:cardElevation="4dp">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/childRecycler"
+    <TextView
+        android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/child_recycler_margin" />
