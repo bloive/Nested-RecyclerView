@@ -5,4 +5,10 @@
 
     <dimen name="card_margin">30dp</dimen>
     <dimen name="child_recycler_margin">10dp</dimen>
+
+    <string-array name="recycler_titles">
+        <item>Title</item>
+        <item>Description</item>
+        <item>picture</item>
+    </string-array>
 </resources>

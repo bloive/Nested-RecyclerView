@@ -1,31 +1,21 @@
 package com.example.nestedrecyclerview
 
 import android.os.Bundle
-import android.util.Log
-import android.util.Log.d
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.nestedrecyclerview.databinding.FragmentDetailsBinding
-import com.example.nestedrecyclerview.databinding.FragmentMainBinding
 
 class DetailsFragment : Fragment() {
 
     private var _binding: FragmentDetailsBinding? = null
     private val binding get() = _binding!!
 
-    private lateinit var adapter: RecyclerDetailsAdapter
-
     private lateinit var retrievedMap : Map<String, List<String>>
 
-    private val items = mutableListOf<ProfileFields>()
+    private val items = mutableListOf<Item>()
 
-//    private val fieldsViewModel by lazy {
-//        ViewModelProvider(requireActivity()).get(FieldsViewModel::class.java)
-//    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
